@@ -35,7 +35,7 @@ public class naukri {
 		driver.findElement(By.xpath("//input[@placeholder='Enter your active Email ID / Username']"))
 				.sendKeys("riteshmalav95@gmail.com");
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("//input[@placeholder='Enter your password']")).sendKeys("ritesh016");
+		driver.findElement(By.xpath("//input[@placeholder='Enter your password']")).sendKeys("qwert@1234");
 		Thread.sleep(4000);
 		driver.findElement(By.xpath("//button[@class='btn-primary loginButton']")).click();
 		Thread.sleep(4000);
